@@ -49,3 +49,15 @@ h1 {
     background-color: #f1f1f1;
     color: #b94848;
 }
+
+/*PAge create.html*/
+.form-control,
+.form-select {
+    text-align: center;
+}
+
+label {
+    margin: 10px;
+    color: #b94848;
+}
+
