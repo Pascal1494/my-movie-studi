@@ -10,12 +10,47 @@
     <title>My Movies - Spiderman-WHS</title>
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img class="logo-sf m-3"  src="./img/logo-SF.png" alt="logo du site"> My Movie
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./views/create.html">Ajouter</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Voir</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Connexion</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
     <h1>My movie</h1>
     <h3 class="slogan">Découvrez et partagez des films</h3>
-    <img class="logo"  src="./img/RngxAreQ_400x400.jpg" alt="logo du site">
+    <img class="logo m-3"  src="./img/RngxAreQ_400x400.jpg" alt="logo du site">
     <div>
 
-        <a class="btn" href="./views/create.html">Publiez un nouveau film</a>
+        <a class="btn btn-outline-danger" href="./views/create.html">Publiez un nouveau film</a>
     </div>
+
+    <footer>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
 </body>
 </html>
